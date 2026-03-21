@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3-alpha.1](https://github.com/qthan1004/react-lib-workspace/compare/v0.0.3-alpha.0...v0.0.3-alpha.1) (2026-03-21)
+
+
+### Bug Fixes
+
+* standalone tsconfig, add jsdom and passWithNoTests for CI ([063abdc](https://github.com/qthan1004/react-lib-workspace/commit/063abdc2a08f0fc0b58ce3f709b7a4f1491d250b))
+
 ### [0.0.3-alpha.0](https://github.com/qthan1004/react-lib-workspace/compare/v0.0.2...v0.0.3-alpha.0) (2026-03-21)
 
 
