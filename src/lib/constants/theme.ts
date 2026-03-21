@@ -1,4 +1,4 @@
-import { pxToRem, alpha } from '@thanhdq/utils';
+import { pxToRem, alpha } from '@thanh-libs/utils';
 import ThemeSchema from '../models';
 import { COLOR } from './colors';
 

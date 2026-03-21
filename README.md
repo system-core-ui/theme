@@ -1,18 +1,18 @@
-# @thanhdq/theme
+# @thanh-libs/theme
 
 Theme provider and schema for System Core UI.
 
 ## Installation
 
 ```bash
-yarn add @thanhdq/theme
+yarn add @thanh-libs/theme
 ```
 
 ## Usage
 
 ```tsx
-import { ThemeProvider } from '@thanhdq/theme';
-import type { ThemeSchema } from '@thanhdq/theme';
+import { ThemeProvider } from '@thanh-libs/theme';
+import type { ThemeSchema } from '@thanh-libs/theme';
 
 const myTheme: ThemeSchema = {
   palette: { ... },
@@ -27,4 +27,4 @@ const myTheme: ThemeSchema = {
 
 ## Running unit tests
 
-Run `nx test @thanhdq/theme` to execute the unit tests via [Vitest](https://vitest.dev/).
+Run `nx test @thanh-libs/theme` to execute the unit tests via [Vitest](https://vitest.dev/).

@@ -1,8 +1,8 @@
 /// <reference types='vitest' />
-import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import dts from 'vite-plugin-dts';
 import * as path from 'path';
+import { defineConfig } from 'vite';
+import dts from 'vite-plugin-dts';
 
 export default defineConfig(() => ({
   root: import.meta.dirname,
@@ -15,7 +15,7 @@ export default defineConfig(() => ({
     }),
   ],
   resolve: {
-    conditions: ['@thanhdq/source'],
+    conditions: ['@thanh-libs/source'],
   },
   // Uncomment this if you are using workers.
   // worker: {
@@ -33,7 +33,7 @@ export default defineConfig(() => ({
     lib: {
       // Could also be a dictionary or array of multiple entry points.
       entry: 'src/index.ts',
-      name: '@thanhdq/theme',
+      name: '@thanh-libs/theme',
       fileName: 'index',
       // Change this to the formats you want to support.
       // Don't forget to update your package.json as well.
@@ -48,12 +48,12 @@ export default defineConfig(() => ({
         '@emotion/react',
         '@emotion/styled',
         '@emotion/react/jsx-runtime',
-        /^@thanhdq\//,
+        /^@thanh-libs\//,
       ],
     },
   },
   test: {
-    name: '@thanhdq/theme',
+    name: '@thanh-libs/theme',
     watch: false,
     globals: true,
     environment: 'jsdom',

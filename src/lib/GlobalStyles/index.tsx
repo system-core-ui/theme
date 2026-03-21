@@ -1,6 +1,6 @@
 import { css, Global, useTheme } from "@emotion/react";
 
-import { pxToRem } from '@thanhdq/utils';
+import { pxToRem } from '@thanh-libs/utils';
 
 import { ThemeSchema } from "../models";
 

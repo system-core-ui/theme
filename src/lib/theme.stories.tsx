@@ -83,7 +83,7 @@ const ThemeShowcase = ({ isDark = false }: { isDark?: boolean }) => {
       min-height: 100vh;
     `}>
       <h1 css={css`font-size: 1.5rem; margin-bottom: 1.5rem;`}>
-        @thanhdq/theme {isDark ? '(Dark)' : ''}
+        @thanh-libs/theme {isDark ? '(Dark)' : ''}
       </h1>
 
       {/* Colors */}

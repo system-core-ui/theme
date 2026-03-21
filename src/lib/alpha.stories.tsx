@@ -2,7 +2,7 @@
 import { css, useTheme } from '@emotion/react';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 import { useState } from 'react';
-import { alpha } from '@thanhdq/utils';
+import { alpha } from '@thanh-libs/utils';
 import { ThemeSchema, COLOR } from '../index';
 
 // ─── Demo Component ──────────────────────────────────────
