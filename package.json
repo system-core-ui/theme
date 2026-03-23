@@ -1,6 +1,7 @@
 {
   "name": "@thanh-libs/theme",
   "version": "0.0.3",
+  "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -24,6 +25,7 @@
   },
   "files": [
     "dist",
+    "LICENSE",
     "!**/*.tsbuildinfo",
     "!**/*.stories.*"
   ],
