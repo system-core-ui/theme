@@ -86,7 +86,7 @@ const NameGridDemo = () => {
   const theme = useTheme() as ThemeSchema;
 
   const names = [
-    'Quốc Thành', 'Alice Smith', 'Bob Johnson', 'Charlie Brown',
+    'Quốc Thanh', 'Alice Smith', 'Bob Johnson', 'Charlie Brown',
     'Diana Prince', 'Eve Wilson', 'Frank Castle', 'Grace Hopper',
     'Hùng Nguyễn', 'Iron Man', 'Jane Doe', 'Kevin Hart',
     'Lý Minh', 'Nancy Drew', 'Oscar Wilde', 'Peter Parker',
@@ -150,7 +150,7 @@ const NameGridDemo = () => {
 
 const InteractiveDemo = () => {
   const theme = useTheme() as ThemeSchema;
-  const [text, setText] = useState('Quốc Thành');
+  const [text, setText] = useState('Quốc Thanh');
   const color = textToColor(text);
   const contrastText = getContrastFromHsl(color);
   const initials = text.trim().split(/\s+/).map(w => w.charAt(0).toUpperCase()).slice(0, 2).join('');
@@ -252,7 +252,7 @@ const meta: Meta<TextToColorDemoProps> = {
     },
   },
   args: {
-    text: 'Quốc Thành',
+    text: 'Quốc Thanh',
   },
 };
 
