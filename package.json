@@ -29,6 +29,9 @@
     "!**/*.tsbuildinfo",
     "!**/*.stories.*"
   ],
+  "peerDependencies": {
+    "@thanh-libs/utils": "*"
+  },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.0",
     "vite": "^7.0.0",
