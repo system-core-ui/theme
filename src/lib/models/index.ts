@@ -1,12 +1,14 @@
 import '@emotion/react';
-import type { Shadows } from './shadows';
-import type { Palettes } from './palettes';
-import type { Shapes } from './shapes';
-import type { ZIndex } from './zIndex';
-import type { Fonts } from './fonts';
-import type { Typography } from './typography';
-import type { Spacing } from './spacing';
+
 import type { Colors } from '../constants/colors';
+
+import type { Fonts } from './fonts';
+import type { Palettes } from './palettes';
+import type { Shadows } from './shadows';
+import type { Shapes } from './shapes';
+import type { Spacing } from './spacing';
+import type { Typography } from './typography';
+import type { ZIndex } from './zIndex';
 
 export interface ThemeSchema {
   palette?: Palettes;
@@ -21,9 +23,14 @@ export interface ThemeSchema {
   [key: string]: any;
 }
 
-export type { Shadows, Palettes, Shapes, ZIndex, Fonts, Typography, Spacing, Colors };
+export type {
+  Shadows,
+  Palettes,
+  Shapes,
+  ZIndex,
+  Fonts,
+  Typography,
+  Spacing,
+  Colors,
+};
 export default ThemeSchema;
-
-declare module '@emotion/react' {
-  export interface Theme extends ThemeSchema {}
-}
