@@ -30,19 +30,23 @@
     "!**/*.stories.*"
   ],
   "peerDependencies": {
-    "@thanh-libs/utils": "*"
+    "@emotion/react": ">=11.0.0",
+    "@thanh-libs/utils": "*",
+    "react": ">=18.0.0"
   },
   "devDependencies": {
+    "@emotion/react": "^11.14.0",
     "@vitejs/plugin-react": "^4.2.0",
+    "jsdom": "~22.1.0",
+    "react": "^19.2.0",
+    "typescript": "~5.9.2",
     "vite": "^7.0.0",
     "vite-plugin-dts": "~4.5.0",
-    "vitest": "^4.1.0",
-    "typescript": "~5.9.2",
-    "jsdom": "~22.1.0"
+    "vitest": "^4.1.0"
   },
   "standard-version": {
     "scripts": {
-      "prerelease": "npx vitest run --passWithNoTests",
+      "prerelease": "node check-deps.mjs && npx vitest run --passWithNoTests",
       "postbump": "npx vite build"
     }
   }
